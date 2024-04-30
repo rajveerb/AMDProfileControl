@@ -31,6 +31,14 @@ AMDuProfCLI report -i <generated output path from data collection>
 Experiments performed on Kepler2
 
 ```zsh
+╰─± g++ --version
+g++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+```zsh
 ╰─± AMDuProfCLI info --system              
 [OS Info]
         OS Details              : LinuxUbuntu 20.04.5 LTS-64
