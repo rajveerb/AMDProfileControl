@@ -8,7 +8,9 @@ Profiling a simple matrix multiplication opeartion 10,000 times
 ### Creating binary
 
 ```bash
-g++ -std=c++11 matrix_mult.cpp profile_matrix_mult.cpp -o matrix_mult -I /opt/AMDuProf_4.0-341/include -L /opt/AMDuProf_4.0-341/lib/x64  -lAMDProfileController -lrt -pthread
+g++ -std=c++11 matrix_mult.cpp profile_matrix_mult.cpp -o matrix_mult\
+ -I /opt/AMDuProf_4.0-341/include -L /opt/AMDuProf_4.0-341/lib/x64\
+ -lAMDProfileController -lrt -pthread
 ```
 
 ### Collecting data
